@@ -38,6 +38,7 @@ void setup() {
    */
   pinMode(pinPulsador, INPUT);  
   pinMode(pinLuzRoja, OUTPUT);
+  pinMode(pinLuzVerde, OUTPUT);
   pinMode(pinTrig, OUTPUT);
   pinMode(pinEcho,  INPUT);
   lcd.begin(16, 2); //inicio de pantalla led indicando que es de 16x2
